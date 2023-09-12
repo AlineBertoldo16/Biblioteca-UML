@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" modified="2023-09-12T19:20:16.483Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.76" etag="SmANsPukrea74JzPC2Bj" version="21.7.4" type="device" pages="2">
+  <diagram name="Diagrama de classe" id="eDmOugpkvWomNbPLBD-E">
+    <mxGraphModel dx="1042" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-9" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;LEITOR&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ID: INT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Nome: TXT&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;Histórico: LIST&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;emprestarLivro(livro: livro)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;devolverLivro(livro: &lt;font color=&quot;#e71313&quot;&gt;L&lt;/font&gt;ivro):&amp;nbsp;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-10" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="QO_N0fdpIyvWAqqyWyZr-9">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="60" y="130" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-14" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;LIVROS&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;título: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;autor: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ISBN: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;status: Enum (Disponível, Emprestado)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;histórico: Lista de Ação&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;serEmprestado()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;ser Devolvido()&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="40" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-15" value="" style="shape=component;jettyWidth=8;jettyHeight=4;strokeColor=#000000;" vertex="1" parent="QO_N0fdpIyvWAqqyWyZr-14">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-16" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="550" y="170" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-17" value="&lt;p style=&quot;margin:0px;margin-top:6px;text-align:center;&quot;&gt;&lt;b&gt;Ações&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;status: Enum (Emprestimo,&lt;span style=&quot;background-color: rgb(237, 12, 12);&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;data: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;leitor: Referência para Leitor&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;livro: Referência: para Livro&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="align=left;overflow=fill;html=1;dropTarget=0;whiteSpace=wrap;strokeColor=#vermelho;" vertex="1" parent="1">
+          <mxGeometry x="300" y="398" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-18" value="" style="shape=component;jettyWidth=8;jettyHeight=4;" vertex="1" parent="QO_N0fdpIyvWAqqyWyZr-17">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-24" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="1">
+          <mxGeometry x="300" y="510" width="180" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-23" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=-0.02;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="133.6" y="200" as="sourcePoint" />
+            <mxPoint x="300.0000000000001" y="459.24" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="133.6" y="460" />
+              <mxPoint x="283.6" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QO_N0fdpIyvWAqqyWyZr-25" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="650" y="250" as="sourcePoint" />
+            <mxPoint x="480" y="478" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="260" />
+              <mxPoint x="650" y="478" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="lWU0B1GDLif3fWKX4a1J" name="Página-2">
+    <mxGraphModel dx="1042" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
